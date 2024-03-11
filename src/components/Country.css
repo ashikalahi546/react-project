@@ -1,0 +1,20 @@
+.country {
+  border: 2px solid lightblue;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.country-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.visited {
+  background-color: darkcyan;
+}
+.image-container img {
+  width: 100px;
+  margin-right: 10px;
+}
